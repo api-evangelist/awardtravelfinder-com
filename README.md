@@ -1,4 +1,4 @@
-# awardtravelfinder-com
+# Award Travel Finder
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-awardtravelfinder-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://awardtravelfinder.com/
+Award Travel Finder is an AI‑native award flight search platform that helps travelers find award seats and business‑class upgrades across 24 airline loyalty programs. Users can query award availability directly from Claude, ChatGPT, or Cursor agents, receiving real‑time results without needing to log into each airline. The service offers a free tier with limited searches and a paid plan for higher usage, and it respects user privacy by not storing conversation data for training.
+
+**Areas:** Travel · Awards · AI · Flights · Loyalty
+
+## Award Travel Finder on APIs.io
+
+Everything profiled for Award Travel Finder is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/awardtravelfinder-com/](https://apis.io/providers/awardtravelfinder-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Award Travel Finder Agent API](https://apis.io/apis/awardtravelfinder-com/awardtravelfinder-com-agent-api/) — The Agent API from Award Travel Finder — 1 operation(s) for agent.
+- [Award Travel Finder Airlines API](https://apis.io/apis/awardtravelfinder-com/awardtravelfinder-com-airlines-api/) — The Airlines API from Award Travel Finder — 1 operation(s) for airlines.
+- [Award Travel Finder British Airways (Admin Only) API](https://apis.io/apis/awardtravelfinder-com/awardtravelfinder-com-british-airways-admin-only-api/) — The British Airways (Admin Only) API from Award Travel Finder — 3 operation(s) for british airways (admin only).
+- [Award Travel Finder Cathay Pacific API](https://apis.io/apis/awardtravelfinder-com/awardtravelfinder-com-cathay-pacific-api/) — The Cathay Pacific API from Award Travel Finder — 3 operation(s) for cathay pacific.
+- [Award Travel Finder Hotels API](https://apis.io/apis/awardtravelfinder-com/awardtravelfinder-com-hotels-api/) — The Hotels API from Award Travel Finder — 5 operation(s) for hotels.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Awardtravelfinder Com Agentic Access](https://apis.io/agentic-access/awardtravelfinder-com/awardtravelfinder-com-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Award Travel Finder API Rules](https://apis.io/rules/awardtravelfinder-com/awardtravelfinder-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Awardtravelfinder Com Authentication](https://apis.io/security/awardtravelfinder-com/awardtravelfinder-com-authentication/)
+- [Awardtravelfinder Com Domain Security](https://apis.io/security/awardtravelfinder-com/awardtravelfinder-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Awardtravelfinder Com Scopes](https://apis.io/scopes/awardtravelfinder-com/awardtravelfinder-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Awardtravelfinder Com Plans Pricing](https://apis.io/plans/awardtravelfinder-com/awardtravelfinder-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Awardtravelfinder Com Rate Limits](https://apis.io/rate-limits/awardtravelfinder-com/awardtravelfinder-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://awardtravelfinder.com/)
+- [Documentation](https://awardtravelfinder.com/guides)
+- [Getting started](https://awardtravelfinder.com/mcp/chatgpt)
+- [API reference](https://awardtravelfinder.com/llms.txt)
+- [Pricing](https://awardtravelfinder.com/pricing)
+- [Support](https://awardtravelfinder.com/contact)
+- [Blog](https://awardtravelfinder.com/blog)
+- [Terms of service](https://awardtravelfinder.com/terms-of-service)
+- [Privacy policy](https://awardtravelfinder.com/privacy-policy)
+- [GitHub](https://github.com/AwardTravelFinder)
+- [Status](https://awardtravelfinder.com/status)
+
+## API Evangelist rating
+
+**Kin Score 58.0** — strong · rubric 0.26.0 · scored 2026-11-02
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 47.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 60.0 |
+
+**Agent readiness 72.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | self |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/awardtravelfinder-com/](https://apis.io/providers/awardtravelfinder-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Award Travel Finder: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/awardtravelfinder-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
